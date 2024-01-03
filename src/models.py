@@ -47,7 +47,7 @@ class Starships(Base):
     passengers = Column(Integer, nullable = True)
     edited = Column(String(25), nullable = False)
     hyperdrive_rating = Column(Integer, nullable = False)
-    consumables = Column(Integer, (25), nullable = False)
+    consumables = Column(Integer, nullable = False)
     cargo_capacity = Column(Integer, nullable = False)
     starship_class = Column(String(50))
     description = Column(String(250))
